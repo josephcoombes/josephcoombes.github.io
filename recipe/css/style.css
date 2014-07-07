@@ -1,0 +1,173 @@
+html{
+	background-image: url("../img/wood.jpg");
+	color: #333;
+}
+
+
+
+body{font-family: 'proxima-nova';
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	-moz-box-shadow:     1px 1px 1px 1px #666;
+  	-webkit-box-shadow: 1px 1px 1px 1px #666;
+  	box-shadow:         1px 1px 1px 1px #666;
+	padding: 0px;
+}
+
+img{
+	height: 400px;
+}
+
+a#rotator img {
+-webkit-transition: all 1.5s ease-in-out;
+-moz-transition: all 1.5s ease-in-out;
+-o-transition: all 1.5s ease-in-out;
+-ms-transition: all 1.5s ease-in-out;
+}
+
+a#rotator img:hover { 
+-webkit-transform: rotate(360deg); 
+-moz-transform: rotate(360deg); 
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg); 
+}
+
+hr{
+	border-top: dotted 1.5px #666;
+}
+
+li:hover{
+	color: #9cb8b3;
+
+	transition: all 0.5s ease;
+
+	
+}
+
+.number{
+	font-size: 1.5em;
+}
+
+.page{
+	background-image: url("../img/bedge_grunge.png");
+	padding: 30px;
+	text-align: center;
+}
+
+.ingredients{
+	display: inline;
+	clear: none;
+	text-align: center;
+}
+.ingredients h2{
+	font-size: 2em;
+	color: #333;
+	/*--text-shadow: #9cb8b3 2px 2px 0px;--*/
+	letter-spacing: 5px;
+}
+.method{
+	display: inline;
+	width: 60%;
+	clear: none;
+}
+
+
+
+.ingredient-section{
+	background-image: url("../img/halftone.png");
+	padding: 15px;
+	margin-top: 30px;
+	-moz-box-shadow:     1px 1px 1px 1px #666;
+  	-webkit-box-shadow: 1px 1px 1px 1px #666;
+  	box-shadow:         1px 1px 1px 1px #666;
+}
+
+
+
+/*===========================================================
+TYPOGRAPHY
+============================================================*/
+
+h1{
+	font-size: 1em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: "proxima-nova";
+	text-align: center;
+	margin-top: 0px;
+	letter-spacing: 5px;
+
+}
+
+
+.shadow, .shadow:after {
+	font-weight: 900;
+    color: #fdf6e0;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    letter-spacing: .1em;
+
+}
+
+.shadow {
+	font-size: 4em;
+    z-index: 100;
+    text-shadow: .03em .03em 0 #9cb8b3;
+}
+
+.shadow:after {
+    content: attr(data-shadow-text);
+    color: rgba(0,0,0,.35);
+    text-shadow: none;
+    position: absolute;
+    left: .075em;
+    top: .075em;
+    z-index: -1;
+    -webkit-mask-image: url("http://f.cl.ly/items/1t1C0W3y040g1J172r3h/mask.png");
+}
+
+h4{	color: #666;
+	font-size: 1.5em;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.classic{
+	letter-spacing: 12px;
+}
+
+.cocktail{
+	letter-spacing: 8px;
+
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.header{
+	background-color: #9cb8b3;
+	padding:30px;
+}
+
+
+.old-fashioned{
+	border-radius: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+
+
+
+
+
