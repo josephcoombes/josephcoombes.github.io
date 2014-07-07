@@ -34,6 +34,9 @@ a#rotator img:hover {
 -ms-transform: rotate(360deg); 
 }
 
+.hidden { visibility: hidden; }
+.unhidden { visibility: visible; }
+
 hr{
 	border-top: dotted 1.5px #666;
 }
